@@ -2,20 +2,7 @@ import Link from 'next/link';
 import './index.css';
 import Header from '@/components/header/header';
 
-const Home = () => {
-  const sections = [
-    { 
-      path: '/page1', 
-      title: 'Section 1', 
-      description: 'Description for section 1' 
-    },
-    { 
-      path: '/page2', 
-      title: 'Section 2', 
-      description: 'Description for section 2' 
-    },
-  ];
-
+export default function Home(){
   return (
     <>
       <Header />
@@ -53,5 +40,3 @@ const Home = () => {
     </>
   );
 };
-
-export default Home;

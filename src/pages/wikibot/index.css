@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2em;
+    background-color: var(--bg);
+}
+  
+.title {
+    font-family: var(--font-family);
+    color: var(--primary);
+    margin-bottom: 1em;
+    font-size: 3em;
+    font-weight: 1000;
+}
+  
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 95%;
+    margin-top: 50px;
+    justify-content: center;
+}
+  
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-2);
+    color: var(--text-light);
+    padding: 1em;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+  
+.button:hover {
+    transform: scale(1.05);
+}
