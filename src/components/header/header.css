@@ -1,0 +1,40 @@
+.header {
+    background: var(--gradient-1);
+    color: var(--secondary);
+    padding: 1em;
+}
+  
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.header-title {
+    font-family: var(--font-family);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--text-primary);
+    text-shadow: 2px 2px 4px var(--text-secondary);
+} 
+  
+.nav {
+    display: flex;
+    justify-content: center;
+}
+  
+.nav-link {
+    font-family: var(--font-family);
+    margin: 0 1em;
+    color: var(--text-primary);
+}
+  
+.nav-link.text-accent {
+    font-weight: 500;
+    color: white;
+}
+  
+.nav-link.text-primary {
+    font-weight: 500;
+    color: var(--text-secondary);
+}

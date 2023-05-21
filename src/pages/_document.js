@@ -7,7 +7,7 @@ export default function Document() {
         <title>Call of Dragons Tools</title>
         <meta
           name="description"
-          content="The Best and most Trusted Complete Courses"
+          content="Online tools for Call of Dragons"
         ></meta>
       </Head>
       <body>

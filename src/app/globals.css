@@ -2,25 +2,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-html,
-
-body {
-  overflow-x: hidden;
-  font-size: 10px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.inner-container {
-  max-width: 161rem;
-  margin: auto;
+:root {
+  --font-family: "Montserrat", sans-serif;
+  --primary: #FFA500;
+  --secondary: #FFD700;
+  --accent: #FF6347;
+  --gradient-1: linear-gradient(135deg, #FFA500, #FFD700);
+  --gradient-2: linear-gradient(135deg, #FFD700, #FF6347);
+  --warning: #FF4500;
+  --light-background: #FFF8DC;
+  --dark-background: #FFFAF0;
+  --subtle-accent: #F0E68C;
+  --text-primary: #2A2A2A; 
+  --text-secondary: #757575; 
+  --text-light: #F5F5F5; 
+  --text-accent: #FF6347; 
 }
