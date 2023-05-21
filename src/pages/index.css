@@ -19,7 +19,7 @@
 .sections {
     display: flex;
     gap: 2em;
-    width: 100%;
+    width: 95%;
     margin-top: 50px;
 }
   
@@ -45,8 +45,12 @@
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 1em;
+    color: var(--text-primary);
 }
   
 .section-description {
     text-align: center;
+    font-size: 17px;
+    color: var(--text-secondary);
+    font-weight: 600;
 }
