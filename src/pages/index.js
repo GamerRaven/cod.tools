@@ -20,17 +20,34 @@ const Home = () => {
     <>
       <Header />
       <div className="container">
-        <h1 className="title">Welcome to CoD Tools</h1>
-        <h3 className="subtitle">Subtitle goes here</h3>
+        <h1 className="title">Call of Dragons Tools</h1>
         <div className="sections">
-          {sections.map(section => (
-            <Link key={section.path} href={section.path}>
-              <a className="section">
-                <h2 className="section-title">{section.title}</h2>
-                <p className="section-description">{section.description}</p>
-              </a>
-            </Link>
-          ))}
+          <Link key="/test" href="test">
+            <a className="section">
+              <h2 className="section-title">Test</h2>
+              <p className="section-description">Test</p>
+            </a>
+          </Link>
+          <Link key="/test" href="test">
+            <a className="section">
+              <h2 className="section-title">Test</h2>
+              <p className="section-description">Test</p>
+            </a>
+          </Link>
+        </div>
+        <div className="sections">
+          <Link key="/test" href="test">
+            <a className="section">
+              <h2 className="section-title">Test</h2>
+              <p className="section-description">Test</p>
+            </a>
+          </Link>
+          <Link key="/test" href="test">
+            <a className="section">
+              <h2 className="section-title">Test</h2>
+              <p className="section-description">Test</p>
+            </a>
+          </Link>
         </div>
       </div>
     </>
