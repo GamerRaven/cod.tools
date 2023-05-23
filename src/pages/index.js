@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import './index.css';
 import Header from '@/components/header/header';
+import Footer from '@/components/footer/footer';
 
 export default function Home(){
   return (
@@ -15,14 +16,13 @@ export default function Home(){
               <p className="section-description">Discord Bot that presents details about Call of Dragons heroes, artifacts, and behemoths</p>
             </a>
           </Link>
-          <Link key="/test" href="test">
-            <a className="section">
-              <h2 className="section-title">Coming Soon...</h2>
-              <p className="section-description">Coming Soon...</p>
-            </a>
-          </Link>
+          <a className="section">
+            <h2 className="section-title">Coming Soon...</h2>
+            <p className="section-description">Coming Soon...</p>
+          </a>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
