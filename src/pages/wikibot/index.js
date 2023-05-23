@@ -48,9 +48,40 @@ export default function WikiBot() {
             <p className="description">Get a sorted Tier List to learn which heroes and artifacts to invest in.</p>
           </div>
         </div>
+        <h1 className="spacer" />
       </div>
       <div className='commands'>
         <h1 className='section-title'>Commands</h1>
+        <div className='command-table'>
+          <div className='command-row'>
+            <h2 className='command-name'>c!help</h2>
+            <p className='command-description'>Get a list of all available commands</p>
+          </div>
+          <div className='command-row'>
+            <h2 className='command-name'>c!heroes</h2>
+            <p className='command-description'>Get a list of all available heroes</p>
+          </div>
+          <div className='command-row'>
+            <h2 className='command-name'>c!hero &lt;name&gt;</h2>
+            <p className='command-description'>Get information about a hero</p>
+          </div>
+          <div className='command-row'>
+            <h2 className='command-name'>c!behemoths</h2>
+            <p className='command-description'>Get a list of all available behemoths</p>
+          </div>
+          <div className='command-row'>
+            <h2 className='command-name'>c!behemoth &lt;name&gt;</h2>
+            <p className='command-description'>Get information about a behemoth</p>
+          </div>
+          <div className='command-row'>
+            <h2 className='command-name'>c!artifacts</h2>
+            <p className='command-description'>Get a list of all available artifacts</p>
+          </div>
+          <div className='command-row'>
+            <h2 className='command-name'>c!artifact &lt;name&gt;</h2>
+            <p className='command-description'>Get information about an artifact</p>
+          </div>
+        </div>
       </div>
     </>
   );
