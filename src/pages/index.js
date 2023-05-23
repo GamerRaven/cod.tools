@@ -9,7 +9,7 @@ export default function Home(){
       <div className="container">
         <h1 className="title">Call of Dragons Tools</h1>
         <div className="sections">
-          <Link key="/test" href="test">
+          <Link key="wikibot" href="/wikibot">
             <a className="section">
               <h2 className="section-title">Call of Dragons Wiki Bot</h2>
               <p className="section-description">Discord Bot that presents details about Call of Dragons heroes, artifacts, and behemoths</p>
@@ -17,22 +17,8 @@ export default function Home(){
           </Link>
           <Link key="/test" href="test">
             <a className="section">
-              <h2 className="section-title">Test</h2>
-              <p className="section-description">Test</p>
-            </a>
-          </Link>
-        </div>
-        <div className="sections">
-          <Link key="/test" href="test">
-            <a className="section">
-              <h2 className="section-title">Test</h2>
-              <p className="section-description">Test</p>
-            </a>
-          </Link>
-          <Link key="/test" href="test">
-            <a className="section">
-              <h2 className="section-title">Test</h2>
-              <p className="section-description">Test</p>
+              <h2 className="section-title">Coming Soon...</h2>
+              <p className="section-description">Coming Soon...</p>
             </a>
           </Link>
         </div>

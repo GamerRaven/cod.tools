@@ -1,9 +1,9 @@
-.container {
+.infobox {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 60vh;
     padding: 2em;
     background-color: var(--bg);
 }
@@ -44,4 +44,64 @@
   
 .button:hover {
     transform: scale(1.05);
+}
+
+.features{
+    background-color: var(--bg2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 30px;
+    color: var(--secondary);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+  
+.features-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2em;
+}
+  
+.features-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 40%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    background-color: var(--bg);
+}
+  
+.features-box img {
+    max-height: 400px;
+}
+  
+.features-box .title {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: 700;
+}
+  
+.features-box .description {
+    font-size: 1.2em;
+    text-align: center;
+    color: var(--text-light);
+}
+
+.commands{
+    background-color: var(--bg2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

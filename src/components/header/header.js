@@ -6,7 +6,7 @@ const Header = () => {
   const router = useRouter();
   const pages = [
     { path: '/', name: 'Home' },
-    { path: '/about', name: 'About' },
+    { path: '/wikibot', name: 'Wiki Bot' },
   ];
 
   return (
