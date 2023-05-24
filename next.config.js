@@ -4,6 +4,7 @@ const nextConfig = {
     experimental: {
       newNextLinkBehavior: false,
     },
+    trailingSlash: true,
   };
   
 module.exports = nextConfig;
