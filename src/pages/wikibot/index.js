@@ -15,7 +15,7 @@ export default function WikiBot() {
           <a className="button" href="https://top.gg/bot/1100937871969501364/vote" target="_blank">
             Vote Bot
           </a>
-          <a className="button" href="https://discord.com/invite/TFjt39ezmp" target="_blank">
+          <a className="button" href="https://discord.com/invite/X4h7cjPzgh" target="_blank">
             Support Server
           </a>
           <a className="button" href="https://github.com/GamerRaven/Call-of-Dragons-Wiki-Bot" target="_blank">
